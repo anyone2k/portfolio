@@ -3,11 +3,11 @@ import Head from 'next/head'
 import "./globals.css";
 import { Alegreya, Roboto } from "next/font/google";
 
-export const alegreya = Alegreya({
+const alegreya = Alegreya({
   subsets: ["latin"],
   variable: "--font-alegreya", 
   weight: "500"});
-export const roboto = Roboto({
+const roboto = Roboto({
   subsets: ["latin"], 
   variable: "--font-roboto",
   weight: "700"});
