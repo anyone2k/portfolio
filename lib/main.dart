@@ -16,9 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Portfolio',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: .fromSeed(
-          seedColor: const Color.fromARGB(255, 53, 19, 112),
-        ),
+        colorScheme: .fromSeed(seedColor: const Color.fromRGBO(0, 0, 0, 255)),
         fontFamily: 'BrokenConsole',
       ),
       home: const StartMenu(),
